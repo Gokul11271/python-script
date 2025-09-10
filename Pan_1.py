@@ -2,6 +2,10 @@ import MetaTrader5 as mt5
 import time
 from datetime import datetime
 
+
+
+
+
 # ------------------- Config ------------------- #
 SYMBOL = "XAUUSD_"       # Trading symbol
 SLIPPAGE = 50
@@ -209,3 +213,4 @@ except KeyboardInterrupt:
     print("\n🛑 Script stopped by user.")
 finally:
     mt5.shutdown()
+
